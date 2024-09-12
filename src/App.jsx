@@ -2,8 +2,8 @@ import react from 'react'
 import Home from './pages/home/Home'
 import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import MainLayout from './mainlayout/MainLayout'
-import Available from './pages/available/available'
+import MainLayout from './mainlayout/MainLayout.jsx'
+import Available from './pages/available/available.jsx'
 
 function App() {
 

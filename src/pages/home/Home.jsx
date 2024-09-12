@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import style from "./home.module.css";
-import Card from "../../comonent/card/Card";
-import Loader from "../../comonent/loader/Loader";
+import Card from "../../comonent/card/Card.jsx";
+import Loader from "../../comonent/loader/Loader.jsx";
 function Home() {
 
   const [data, setdata] = useState([]);
   const [loading, setloading] = useState(true);
-  
+
   useEffect(() => {
     async function fetchdata() {
       try {

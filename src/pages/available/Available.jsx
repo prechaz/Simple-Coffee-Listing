@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Card from '../../comonent/card/Card'
+import Card from '../../comonent/card/Card.jsx'
 import style from './available.module.css'
-import Loader from '../../comonent/loader/Loader'
+import Loader from '../../comonent/loader/Loader.jsx'
 
 function Available() {
   const [data, setdata] = useState([])
