@@ -5,13 +5,13 @@ function Nav() {
   return (
     <>
       <nav>
-        <h1>Our Collection</h1>
-        <p>
+        <h1 className={style.header}>Our Collection</h1>
+        <p className={style.intro}>
           Introducing our Coffee Collection, a selection of unique coffees from
           different roast types and origins, expertly roasted in small batches
           and shipped fresh weekly.
         </p>
-        <ul>
+        <ul className={style.NavLink}>
          <li><NavLink to='/'>All Products</NavLink></li> 
          <li><NavLink to='/available'>Available Now</NavLink></li> 
         </ul>
