@@ -3,7 +3,7 @@ import Home from './pages/home/Home'
 import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import MainLayout from './mainlayout/MainLayout.jsx'
-import Available from './pages/available/available.jsx'
+import Available from './pages/available/Available.jsx'
 
 function App() {
 
