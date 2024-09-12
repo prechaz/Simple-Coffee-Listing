@@ -1,0 +1,23 @@
+.container{
+    width: 85%;
+    background-color: #1B1D1F;
+    margin: 170px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+a .active{
+    color: red;
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        margin: 120px auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+        margin: 80px auto;
+    }
+    
+}

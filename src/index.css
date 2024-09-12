@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: #111315;
+  background-attachment: scroll;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(./assets/Images/bg-cafe.jpg);
+}
+.active{
+  background-color: #6F757C;
+}
